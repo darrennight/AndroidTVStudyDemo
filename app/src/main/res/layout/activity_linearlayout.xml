@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.tv.tvWidget.LinearWidget
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_num1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/color_green"
+        android:text="button1"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:focusable="true"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_num2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:text="按钮二"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:focusable="true"/>
+
+
+    <TextView
+        android:id="@+id/tv_num3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="第三个button"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:focusable="true"/>
+
+
+    </com.android.tv.tvWidget.LinearWidget>
