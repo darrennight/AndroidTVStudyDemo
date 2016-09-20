@@ -10,6 +10,7 @@ import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 
 import com.android.tv.leanback.LeanBackMainActivity;
+import com.android.tv.leanbackDetail.BrowseFragmentTestActivity;
 
 /**
  * Created by zenghao on 16/6/1.
@@ -59,6 +60,13 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,LeanBackMainActivity.class
                 ));
+            }
+        });
+
+        mHunter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, BrowseFragmentTestActivity.class));
             }
         });
 
